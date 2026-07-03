@@ -1,0 +1,22 @@
+{
+  "name": "playwrightassignmentstuti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:orangehrm": "playwright test tests/orangehrm-login.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1",
+    "allure-playwright": "^3.10.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "csv-parser": "^3.2.1"
+  }
+}
