@@ -13,7 +13,7 @@ export class LoginPage {
     this.usernameField = page.getByRole('textbox', { name: 'Username' });
     this.passwordField = page.getByRole('textbox', { name: 'Password' });
     this.loginButton = page.getByRole('button', { name: 'Login' });
-    this.dashboardHeading = page.getByRole('heading', { name: 'Dashboard' });
+    this.dashboardHeading = page.locator('h6', { hasText: 'Dashboard' });
     this.InvalidLoginMessage = page.getByText('Invalid credentials');
   }
 
